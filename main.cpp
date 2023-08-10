@@ -14,7 +14,7 @@
 #define LEDG_PERIOD         7       
 #define LEDB_PERIOD         11      
 // Objeto para establecer la comunicación serial con el Pc
-BufferedSerial serial(USBTX, USBRX, 9600);
+UnbufferedSerial serial(USBTX, USBRX, 9600);
 using namespace std;
 
 
